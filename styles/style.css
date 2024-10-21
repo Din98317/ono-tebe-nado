@@ -4,7 +4,6 @@
 
 .header {
   display: grid;
-  flex-shrink: 0;
   grid-template-columns: 450px 300px 272px;
   align-items: center;
   row-gap: 110px;
@@ -35,7 +34,7 @@
 }
 
 .header__links-list-item_no-bullit {
-  padding-right: 0;
+  
   list-style: none;
 }
 
